@@ -1,0 +1,30 @@
+# Ignore Visual Studio temporary files, build results, and
+# .NET Core user-specific files
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+
+# Visual Studio
+.vscode/
+.vs/
+.idea/
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.sln.docstates
+
+# Other
+*.log

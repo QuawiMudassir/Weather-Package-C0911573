@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>TorontoWeather-C0911573</PackageId>
+		<Title>Toronto Weather App</Title>
+		<Version>1.0.3</Version>
+		<!-- Updated version -->
+		<Authors>Mohammed Abdul Quawi Mudassir</Authors>
+		<Description>A lightweight library for retrieving current Toronto weather data using the Open-Meteo API. Built for simplicity and efficiency.</Description>
+		<Copyright>Mohammed Abdul Quawi Mudassir © 2024</Copyright>
+		<RepositoryUrl>https://github.com/YourUsername/TorontoWeather</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+		<PackageTags>weather, Toronto, API, forecast, .NET, Open-Meteo</PackageTags>
+		<PackageReleaseNotes>First Version</PackageReleaseNotes>
+		<AssemblyVersion>1.1.2.0</AssemblyVersion>
+		<FileVersion>1.1.2.0</FileVersion>
+		<PackageProjectUrl>https://example.com/tempfornow</PackageProjectUrl>
+		<PackageLicenseExpression>L</PackageLicenseExpression>
+		<Summary>A .NET library for Toronto weather data.</Summary>
+		<!-- Short summary -->
+		<RepositoryBranch>main</RepositoryBranch>
+		<!-- Repository branch -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+		<!-- Useful for making HTTP requests -->
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Readme.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
